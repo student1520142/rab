@@ -6,12 +6,16 @@ int main()
 {
 	
 	double a, b;
-	int count;  
+	char c;
+	int count; 
+	c= 'y';
+	while (c=='y' || c=='Y')
+		{
 	cout << "Vvedite pervoe chislo: ";
 	cin >> a;
 	cout << "Vvedite vtoroe chislo: ";
 	cin >> b;
-	cout << "Vibirite deistvie: 1 + ; 2 - ; 3 * ; 4 / : ";
+	cout << "Vibirite deistvie: 1 + ; 2 - ; 3 * ; 4 / " <<endl;
 	cin >> count;
 	switch (count)
 	{
@@ -38,6 +42,10 @@ int main()
 	default:
 		cout << "Nepravilni vvod" << endl;
 	}
+	cout << "prodozhit:Y/N " << endl;
+	cin >> c;
+	}
+
 	system("pause");
 	return 0;
 }
