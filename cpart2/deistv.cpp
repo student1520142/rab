@@ -8,5 +8,7 @@
 	 return numb1-numb2;}
 	 if (numb3==3) {
 	 return numb1*numb2;}
+	 if (numb3==4) {
+	 return numb1/numb2;}
  }
  

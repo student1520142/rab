@@ -42,7 +42,7 @@ int main()
 		}
 	case 4:
 		{
-			cout << "function / in development" <<endl;
+			cout << deistv1(a,b,count) <<endl;
 			break;
 		}
 	default:
