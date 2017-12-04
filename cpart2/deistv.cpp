@@ -4,7 +4,11 @@
  {
 	 if(numb3==1){
 	 return numb1+numb2;}
-	 else {
+	 if (numb3==2) {
 	 return numb1-numb2;}
+	 if (numb3==3) {
+	 return numb1*numb2;}
+	 if (numb3==4) {
+	 return numb1/numb2;}
  }
  

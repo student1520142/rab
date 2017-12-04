@@ -37,12 +37,12 @@ int main()
 		}
 	case 3:
 		{
-			cout << "function * in development" <<endl;
+			cout << deistv1(a,b,count) <<endl;
 			break;
 		}
 	case 4:
 		{
-			cout << "function / in development" <<endl;
+			cout << deistv1(a,b,count) <<endl;
 			break;
 		}
 	default:
